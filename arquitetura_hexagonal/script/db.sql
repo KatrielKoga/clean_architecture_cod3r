@@ -1,4 +1,4 @@
-CREATE extension if not EXISTS "uuid-ossp"
+CREATE extension if not EXISTS "uuid-ossp";
 
 create table usuarios (
   id uuid PRIMARY KEY,
